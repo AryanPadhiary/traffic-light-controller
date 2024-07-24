@@ -39,7 +39,7 @@ module Traffic_Light_Controller_TB;
         rst = 0;
         
         // Run simulation for 200 seconds
-      #(1000000000 * 200);
+        #(1000000000 * 200);
         $finish;
     end
 
